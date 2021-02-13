@@ -14,5 +14,5 @@ install:
   - sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-5 90
 
 script: 
-  - g++ main.cpp -std=c++14 -o travis_gcc_cpp14
-  - ./travis_gcc_cpp14
+  - g++ main.cpp -std=c++14 -o qmake_travis
+  - ./qmake_travis
